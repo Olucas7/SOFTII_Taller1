@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.21.0" timestamp="2023-06-08T22:50:53.437">
+<file name="/Users/oscarhumbetolucascanizares/Documents/ESPOL/SOFTII_Taller1/vacation-package-cost-estimator/src/main/java/HealthyInsurance.java">
+<violation beginline="10" endline="74" begincolumn="31" endcolumn="1" rule="UseUtilityClass" ruleset="Design" class="HealthyInsurance" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#useutilityclass" priority="1">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="23" endline="23" begincolumn="25" endcolumn="26" rule="UnusedLocalVariable" ruleset="Best Practices" class="HealthyInsurance" method="main" variable="sc" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'sc'.
+</violation>
+<violation beginline="46" endline="46" begincolumn="17" endcolumn="27" rule="UnusedLocalVariable" ruleset="Best Practices" class="HealthyInsurance" method="verify_business_rules" variable="premiumPlan" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedlocalvariable" priority="3">
+Avoid unused local variables such as 'premiumPlan'.
+</violation>
+</file>
+<file name="/Users/oscarhumbetolucascanizares/Documents/ESPOL/SOFTII_Taller1/vacation-package-cost-estimator/src/main/java/Main.java">
+<violation beginline="6" endline="94" begincolumn="19" endcolumn="1" rule="UseUtilityClass" ruleset="Design" class="Main" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#useutilityclass" priority="1">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+</pmd>
